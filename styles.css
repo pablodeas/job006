@@ -1,0 +1,42 @@
+/* RESET */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	box-sizing: border-box;
+	font-size: 100%
+}
+
+.main img{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.main .button{
+    position:absolute;
+    z-index:1;
+    width:100%;               /* largura para o botão */
+    height:140%;              /* altura para o botão */
+    margin:-15px 0 0 -30px;   /* margem à esquerda e ao topo metade da medida do botão */
+    border:0 none;
+    opacity: 0;
+}
+
+footer p{
+    z-index: 2;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    font-family: Lato;
+    font-weight: bold;
+}
+
+footer a{
+    color: #855af5;
+    text-decoration: none;
+}
